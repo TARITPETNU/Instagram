@@ -3,6 +3,7 @@ $(function () {
     $("#searchrealreal").click(function () {
         var answer = $("#realsearch").val();
         insearch(answer);
+        $("#posts").empty();
     });
 
     function insearch(answer2) {
